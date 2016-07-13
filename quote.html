@@ -8,19 +8,22 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <style>
-    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
-    .row.content {height: 1500px}
-    
-    /* Set gray background color and 100% height */
+     /* Set gray background color and 100% height */
     .sidenav {
-      background-color: #ff8080;
+      background-color: #fff;
       height: 100%;
     }
+	.navbar-inverse {
+    background-color: #ffffff;
+	border-color:#fff;
+	box-shadow: 21px 5px 27px rgba(0,0,0,0.3);
+}
     
     /* Set black background color, white text and some padding */
     footer {
-      background-color: #555;
-      color: white;
+      background-color: #ffba38;
+      color: black
+;
       padding: 15px;
     }
     
@@ -36,13 +39,14 @@
 	.jumbotron{
     background-position: 0% 25%;
     background-size: cover;
-   background-color:#995566;  
-  background-repeat: no-repeat;
-    color: 15cbec;
-    text-shadow: black 0.1em 0.1em 0.1em;
-    }
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    box-shadow: 1px 21px 33px rgba(0,0,0,0.3);
+    color: #4c4c4c;
+    text-shadow: #c5c5c5 0.1em 0.1em 0.1em;
+}
 	
-	/*for carousal/
+	/*for carousal*/
 	.carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
       height: 345px;
@@ -50,6 +54,17 @@
 	  }
 .carousel-inner{
 text-align=-webkit-center;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #ffba38;
+	}
+	body{
+	 background:url("../img/green.jpg");
+	}  
+    hr {
+   size:105;
+  color:blue;
 }
 	
   </style>
